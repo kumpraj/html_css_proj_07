@@ -1,0 +1,164 @@
+/* nav */
+body {
+    max-width: 400px;
+    margin: auto;
+    padding: 1em 0.7em;
+}
+
+nav {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    gap: 1em;
+    margin-bottom: 2em;
+  }
+  nav img[alt="logo"] {
+    margin:auto;
+    width: 90px;
+  }
+
+  .nav-items {
+    margin: auto;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+    font-size: 1em;
+    cursor: pointer;
+
+  }
+
+ 
+  
+  nav img {
+    height: 2em;
+    cursor: pointer;
+  }
+
+  /* hero */
+  .intro-section {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .left-section {
+    width: 100%;
+    margin: auto;
+    height: auto;
+  }
+  .left-section h3 {
+    margin: auto;
+    width: fit-content;
+    font-weight: 400;
+    font-size: 1.5em;
+  }
+
+  .left-section h3 img {
+    height: 1em;
+  }
+
+  .left-section h1 {
+    margin: auto;
+    font-size: 2em;
+    width:fit-content;
+  }
+  .sub-headlines {
+    margin: auto;
+    font-size: 1.1em;
+    width: fit-content;
+    padding: 1em;
+  }
+  .sub-headlines h5 {
+    padding: 0.5em;
+  }
+  .sub-headline img {
+    background-color: rgb(241, 72, 0);
+    border: none;
+    height: 0.5em;
+    padding: 0.3em;
+    border-radius: 10px;
+    margin-right: 1em;
+  }
+  .text {
+    color: #a89e9e;
+    font-size: 0.7em;
+    width: fit-content;
+    margin:auto;
+    
+  }
+  .action-btns {
+    margin: auto;
+    margin-top: 10px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    
+  }
+  .action-btn {
+    background-color: rgb(241, 72, 0);
+    width: fit-content;
+    height: auto;
+    padding: 0.5em;
+    font-size: 0.8em;
+    margin: auto;
+    cursor: pointer;
+  }
+
+  
+  .right-section {
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  .headphone-div {
+    position: relative;
+    top: 0;
+    width: fit-content;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .headphone-div .discount-content {
+    position: absolute;
+  }
+  .discount-content {
+    color: #ffffff;
+    right: 80%;
+    top: 62%;
+  }
+  .discount-content h1 {
+    font-family: "Fredoka One";
+    font-size: 1.5em;
+  }
+  img[alt="discount"] {
+    position: absolute;
+    height: 100px;
+    top: 55%;
+    right: 75%;
+  }
+  img[alt="headphone"] {
+    width: 280px;
+    height: 280px;
+  }
+  .dots {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    margin:auto;
+    margin-top: 0.5em;
+  }
+  
+  .right-section .action-btn {
+    margin: auto;
+    width: 40%;
+    margin-top: 0.5em;
+  }
